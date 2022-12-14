@@ -6,14 +6,14 @@ LowerReverseBeepVol = {}
 --
 --
 --
--- v 0.9.0.1
+-- v 0.9.0.1 beta
 -- SbSh (s4t4n)
 -- 30.11.2022
 -- 
 
 
 local RDSvol = 0.2;  -- volume scale 0.4 means 60 %
-local RDver = "0.9.0.0"
+local RDver = "0.9.0.0 beta"
 
  print("load script LRBV FS22_LowerReverseBeepVol version " .. RDver .. " (by SbSh) <--"); -- self.version
 
