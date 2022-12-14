@@ -20,9 +20,9 @@ local RDver = "0.9.0.0 beta"
 function LowerReverseBeepVol:loadSounds(xmlFile, baseString)
     if self.isClient then
         local spec = self.spec_motorized
---      spec.samples.reverseDrive = nil -- dropping works = no beepsound
+
         if spec.samples.reverseDrive ~= nil then
-            spec.samples.reverseDrive = nil -- decreases volume
+            spec.samples.reverseDrive = nil -- drop sample
 			--setSampleVolume(spec.samples.reverseDrive, 0.2)
 			print("LRBV ------------- it goes ----------------")
 			print ("LRBV  Volume= " .. RDSvol .." factor ")
@@ -34,9 +34,9 @@ function LowerReverseBeepVol:loadSounds(xmlFile, baseString)
 			 
              print("LRBV --> FAIL: nil content overritten by engine");
 			 
-			--setSampleVolume(spec.samples.reverseDrive.volumeScale, 0.3)
-			-- setSampleVolume(spec.samples.reverseDrive, 0.4 * self:getCurrentSampleVolume(sample))
-			--print("LRBV Current vol: " ..self:getCurrentSampleVolume(sample))
+			--setSampleVolume(spec.samples.reverseDrive.volumeScale, 0.3) --doesn't work -> samples.reverseDrive = nil index
+			-- setSampleVolume(spec.samples.reverseDrive, 0.4 * self:getCurrentSampleVolume(sample)) -- no sample
+			--print("LRBV Current vol: " ..self:getCurrentSampleVolume(sample))  -- nil
             spec.samples.reverseDrive = nil -- dropping works = no beepsound
 			print("LRBV beep sound dropped")
         end
