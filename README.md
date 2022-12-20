@@ -1,5 +1,7 @@
 # FS22_EXTvolumeControl
 
+Version: beta
+
 ____
 *de*
 
