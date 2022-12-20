@@ -1,7 +1,6 @@
 # FS22_EXTvolumeControl
 
 *de*
-
  Aktuell soll dieses Script die Lautstärke des Rückwärtswarnton verringern.
  Im weiteren Verlauf, soll jeder für sich die Lautstärke selbst einstellen können im Menü.
 
@@ -16,7 +15,6 @@
        
        
 *en*
-
  Currently this script should reduce the volume of the reverse warning beep.
  In the further course, everyone should be able to adjust the volume themselves in the menu.
 
