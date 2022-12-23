@@ -1,6 +1,8 @@
-# FS22_EXTvolumeControl
+# FS22_LowerReverseBeepVol
 
 Version: beta
+
+Credits: SbSh / Frvetz
 
 ____
 *de*
