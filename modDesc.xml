@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="72">
     <author>SbSh / frvetz</author>
-    <version>0.9.1.1</version>
+    <version>1.0.0.0</version>
     <title>
         <en>decreases reverse Beep volume</en>
-        <de>Leiserer Rückfahrpieper</de>
+        <de>Leiserer Rückfahrwarnpieper</de>
     </title>
     <description>
-        <en><![CDATA[Are you annoyed by the reverse driving beep in Farming Simulator 22? Then solder you a potentiometer between the cable with this mod, with which you can reduce the volume.]]></en>
-        <de><![CDATA[Bist du genervt vom Rückfahrpieper in Farming Simulator 22? Dann löte dir einen Poti zwischen das Kabel mit diesem Mod, mit dem du die Lautstärke reduzieren kannst.]]></de>
+        <en><![CDATA[Solder a potentiometer between the cable with this mod, with which you can reduce the volume of the reversebeeper.]]></en>
+        <de><![CDATA[Löte dir einen Poti zwischen das Kabel mit diesem Mod, mit dem du die Lautstärke des Rückfahrwarnpiepers reduzieren kannst.]]></de>
     </description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true"/>
